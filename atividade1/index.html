@@ -3,9 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
     <title>Atividade 1</title>
 </head>
 <body>
+        
+        <h1>Pagamentos</h1>
     
+        <label for="nome" required>Nome Completo:<span>*</span></label>
+        <input type="text" id="nome" required>
+    <br>
+        <label for="numeroPis" required>Numero do Pis/Pasep:<span>*</span></label>
+        <input type="number" id="numeroPis" required>
+    <br>
+        <label for="valorHora" required>Valor da Hora:<span>*</span></label>
+        <input type="number" id="valorHora" required>
+    <br>    
+        <label for="horaTrabalhada" required>Quantidade de horas trabalhadas:<span>*</span></label>
+        <input type="number" id="horaTrabalhada" required>
+    <br><br>
+        <button type="button" class="botao">Calculo</button>
+
+        <p class="resultado"></p>
+
+        <script src="js/script.js"></script>
 </body>
 </html>
+

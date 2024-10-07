@@ -1,0 +1,20 @@
+h1{
+    padding: 10px;
+    background-color: aquamarine;
+}
+
+label{
+    color: blue;
+}
+
+span {
+    color: red;
+}
+
+body {
+    color: #f4f4f4
+}
+
+.resultado {
+    color: red;
+}
